@@ -1,0 +1,144 @@
+body {
+  font: 16px/20px Roboto, 'Roboto Light', Helvetica, Arial, sans-serif;
+}
+
+h1,
+h2 {
+  font-weight: normal;
+}
+
+h1 {
+  line-height: 1.25em;
+}
+
+.views > div {
+  position: relative;
+  top: 0;
+  left: 0;
+
+  display: none;
+
+  background-repeat: no-repeat;
+  height: 1280px;
+  width: 720px;
+}
+
+.views > div > div {
+  position: absolute;
+
+  background: rgba(0,255,0,.5);
+  display: block;
+
+  cursor: pointer;
+}
+
+#view-1 {
+  background-image: url(../img/1-main.png);
+}
+
+  #view-1-add {
+    right: 45px;
+    bottom: 120px;
+
+    height: 110px;
+    width: 110px;
+
+    border-radius: 50%;
+  }
+
+  #view-1-reminders {
+    right: 4px;
+    top: 181px;
+
+    height: 62px;
+    width: 58px;
+  }
+
+#view-2 {
+  background-image: url(../img/2-add.png);
+}
+
+  #view-2-add-blood {
+    left: 32px;
+    top: 577px;
+
+    height: 62px;
+    width: 657px;
+  }
+
+  #view-2-add-food {
+    left: 32px;
+    top: 650px;
+
+    height: 62px;
+    width: 657px;
+  }
+
+  #view-2-add-exercise {
+    left: 32px;
+    top: 723px;
+
+    height: 62px;
+    width: 657px;
+  }
+
+.input-action {
+  border-radius: 5px;
+
+  height: 69px;
+  width: 284px;
+}
+
+#view-3 {
+  background-image: url(../img/3-glucose.png);
+}
+
+  #view-3-cancel {
+    left: 45px;
+    top: 849px;
+  }
+
+  #view-3-done {
+    right: 56px;
+    top: 849px;
+  }
+
+#view-4 {
+  background-image: url(../img/4-exercise.png);
+}
+
+  #view-4-cancel {
+    left: 45px;
+    top: 1089px;
+  }
+
+  #view-4-done {
+    right: 56px;
+    top: 1089px;
+  }
+
+#view-5 {
+  background-image: url(../img/5-food.png);
+}
+
+  #view-5-cancel {
+    left: 45px;
+    top: 1150px;
+  }
+
+  #view-5-done {
+    right: 56px;
+    top: 1150px;
+  }
+
+#view-6 {
+  background-image: url(../img/6-reminders.png);
+}
+
+  #view-6-glucose {
+    left: 4px;
+    top: 181px;
+
+    height: 62px;
+    width: 84px;
+  }
