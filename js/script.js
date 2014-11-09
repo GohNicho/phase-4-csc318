@@ -1,18 +1,28 @@
 // Home page
-var vHome = document.getElementById('home'),
-    vHomeEstimate = document.getElementById('home-estimate'),
-    vHomeAdd = document.getElementById('home-add'),
-    vHomeInstructions = document.getElementById('home-instructions'),
-    vHomeMenu = document.getElementById('home-menu'),
-    vHomeTrends = document.getElementById('home-trends');
-
-// Initial view
+var vHome = document.getId('home');
 vHome.show();
 
-document.getElementById('home-estimate-toggle').showView(vHomeEstimate);
-document.getElementById('home-add-button').showView(vHomeAdd);
-document.getElementById('home-instructions-button').showView(vHomeInstructions);
-document.getElementById('home-menu-button').showView(vHomeMenu);
-document.getElementById('home-trends-button').showView(vHomeTrends);
-document.getElementById('home-trends-button').showView(vHomeTrends);
-document.getElementById('home-instructions-close').showView(vHome);
+document.getId('home-estimate-toggle').showView(document.getId('home-estimate'));
+document.getId('home-estimate-back').showView(vHome);
+document.getId('home-add-button').showView(document.getId('home-add'));
+document.getId('home-instructions-button').showView(document.getId('home-instructions'));
+document.getId('home-instructions-close').showView(vHome);
+document.getId('home-menu-button').showView(document.getId('home-menu'));
+document.getId('home-trends-button').showView(document.getId('home-trends'));
+
+// Home add menu
+document.getId('home-add-close').showView(vHome);
+
+// Home trends menu
+document.getId('home-trends-close').showView(vHome);
+
+// Home menu
+document.getId('home-menu-settings').showView(document.getId('settings'))
+document.getId('home-menu-passcode').showView(document.getId('passcode'))
+document.getId('home-menu-cancel').showView(vHome)
+
+// Passcode
+document.getId('passcode-back').showView(vHome);
+
+// Settings
+document.getId('settings-back').showView(vHome);

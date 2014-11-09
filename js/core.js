@@ -17,6 +17,7 @@ function hideViews() {
   }
 }
 
+
 // Sets this element's onclick event to show the specified view
 Element.prototype.showView = function(view) {
   this.onclick = function() {
@@ -24,3 +25,9 @@ Element.prototype.showView = function(view) {
     view.show();
   };
 };
+
+
+// Shortcuts
+HTMLDocument.prototype.getId = function(id) {
+  return document.getElementById(id);
+}
