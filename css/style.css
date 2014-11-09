@@ -60,119 +60,93 @@ h1 {
 .views > div > div {
   position: absolute;
 
-  background: rgba(0,255,0,.5);
+  background-color: rgba(0,255,0,.2);
+  transition: background-color 0.3s;
   display: block;
 
   cursor: pointer;
 }
 
-#view-1 {
-  background-image: url(../img/1-main.png);
+  .views > div > div:hover {
+    background-color: rgba(0,255,0,.5);
+  }
+
+
+/* Home page */
+
+#home {
+  background-image: url(../img/home/home.png);
 }
 
-  #view-1-add {
-    right: 45px;
-    bottom: 120px;
+  #home-estimate-toggle {
+    left: 49px;
+    top: 158px;
 
-    height: 110px;
-    width: 110px;
+    height: 129px;
+    width: 532px;
+  }
+
+  #home-add-button {
+    right: 14px;
+    bottom: 15px;
+
+    height: 145px;
+    width: 145px;
 
     border-radius: 50%;
   }
 
-  #view-1-reminders {
-    right: 4px;
-    top: 181px;
+  #home-instructions-button {
+    right: 21px;
+    top: 14px;
 
-    height: 62px;
-    width: 58px;
+    height: 60px;
+    width: 60px;
   }
 
-#view-2 {
-  background-image: url(../img/2-add.png);
-}
+  #home-menu-button {
+    left: 0;
+    top: 0;
 
-  #view-2-add-blood {
+    height: 89px;
+    width: 98px;
+  }
+
+  #home-trends-button {
     left: 32px;
-    top: 577px;
+    bottom: 512px;
 
-    height: 62px;
-    width: 657px;
+    height: 74px;
+    width: 575px;
   }
 
-  #view-2-add-food {
-    left: 32px;
-    top: 650px;
-
-    height: 62px;
-    width: 657px;
-  }
-
-  #view-2-add-exercise {
-    left: 32px;
-    top: 723px;
-
-    height: 62px;
-    width: 657px;
-  }
-
-.input-action {
-  border-radius: 5px;
-
-  height: 69px;
-  width: 284px;
+#home-estimate {
+  background-image: url(../img/home/estimates.png);
 }
 
-#view-3 {
-  background-image: url(../img/3-glucose.png);
+#home-add {
+  background-image: url(../img/home/add.png);
 }
 
-  #view-3-cancel {
-    left: 45px;
-    top: 849px;
-  }
 
-  #view-3-done {
-    right: 56px;
-    top: 849px;
-  }
-
-#view-4 {
-  background-image: url(../img/4-exercise.png);
+#home-instructions {
+  background-image: url(../img/home/instructions.png);
 }
 
-  #view-4-cancel {
-    left: 45px;
-    top: 1089px;
+  #home-instructions-close {
+    right: 17px;
+    top: 15px;
+
+    height: 74px;
+    width: 74px;
   }
 
-  #view-4-done {
-    right: 56px;
-    top: 1089px;
-  }
-
-#view-5 {
-  background-image: url(../img/5-food.png);
+#home-menu {
+  background-image: url(../img/home/menu.png);
 }
 
-  #view-5-cancel {
-    left: 45px;
-    top: 1150px;
-  }
 
-  #view-5-done {
-    right: 56px;
-    top: 1150px;
-  }
-
-#view-6 {
-  background-image: url(../img/6-reminders.png);
+#home-trends {
+  background-image: url(../img/home/other_trends.png);
 }
 
-  #view-6-glucose {
-    left: 4px;
-    top: 181px;
-
-    height: 62px;
-    width: 84px;
-  }
