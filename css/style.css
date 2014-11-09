@@ -31,7 +31,7 @@ h1 {
     width: 100px;
 
     position: relative;
-    bottom: -25px;
+    bottom: -27px;
     left: 50%;
     margin-left: -50px;
   }
@@ -43,7 +43,15 @@ h1 {
   position: relative;
   height: 1136px;
   width: 640px;
+
+  text-align: center;
 }
+
+  .views p {
+    color: #fff;
+    font-size: 1.25em;
+    margin-top: 0.5em;
+  }
 
 .views > div {
   position: absolute;
@@ -276,3 +284,96 @@ h1 {
     width: 90px;
   }
 
+
+/* Data input */
+
+.input-action {
+  height: 87px;
+  width: 285px;
+}
+
+#input-glucose {
+  background-image: url(../img/data_input/glucose.jpg);
+}
+
+  #input-glucose-back {
+    left: 5px;
+    top: 5px;
+
+    height: 90px;
+    width: 45px;
+  }
+
+  #input-glucose-cancel {
+    top: 763px;
+    left: 20px;
+  }
+
+  #input-glucose-done {
+    top: 763px;
+    right: 23px;
+  }
+
+#input-food {
+  background-image: url(../img/data_input/food.jpg);
+}
+
+  #input-food-back {
+    left: 5px;
+    top: 5px;
+
+    height: 90px;
+    width: 45px;
+  }
+
+  #input-food-cancel {
+    top: 982px;
+    left: 20px;
+  }
+
+  #input-food-done {
+    top: 982px;
+    right: 23px;
+  }
+
+#input-exercise {
+  background-image: url(../img/data_input/exercise.jpg);
+}
+
+  #input-exercise-back {
+    left: 5px;
+    top: 5px;
+
+    height: 90px;
+    width: 45px;
+  }
+
+  #input-exercise-options-dropdown {
+    left: 22px;
+    top: 179px;
+
+    height: 108px;
+    width: 595px;
+  }
+
+  #input-exercise-cancel {
+    top: 982px;
+    left: 20px;
+  }
+
+  #input-exercise-done {
+    top: 982px;
+    right: 23px;
+  }
+
+#input-exercise-options {
+  background-image: url(../img/data_input/exercise_options.jpg);
+}
+
+  #input-exercise-running {
+    left: 22px;
+    top: 429px;
+
+    height: 68px;
+    width: 595px;
+  }

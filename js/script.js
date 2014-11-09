@@ -12,6 +12,9 @@ document.getId('home-trends-button').showView(document.getId('home-trends'));
 
 // Home add menu
 document.getId('home-add-close').showView(vHome);
+document.getId('home-add-glucose').showView(document.getId('input-glucose'));
+document.getId('home-add-meal').showView(document.getId('input-food'));
+document.getId('home-add-exercise').showView(document.getId('input-exercise'));
 
 // Home trends menu
 document.getId('home-trends-close').showView(vHome);
@@ -26,3 +29,17 @@ document.getId('passcode-back').showView(vHome);
 
 // Settings
 document.getId('settings-back').showView(vHome);
+
+// Input
+// Input cancel/done buttons
+var inputActions = document.getElementsByClassName('input-action');
+for (var i = 0; i < inputActions.length; i++) {
+  inputActions[i].showView(vHome);
+}
+
+document.getId('input-glucose-back').showView(vHome);
+document.getId('input-food-back').showView(vHome);
+document.getId('input-exercise-back').showView(vHome);
+
+document.getId('input-exercise-options-dropdown').showView(document.getId('input-exercise-options'))
+document.getId('input-exercise-running').showView(document.getId('input-exercise'))
