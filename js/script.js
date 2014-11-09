@@ -38,8 +38,24 @@ for (var i = 0; i < inputActions.length; i++) {
 }
 
 document.getId('input-glucose-back').showView(vHome);
+document.getId('input-glucose-time-button').showView(document.getId('input-glucose-time'));
+document.getId('input-glucose-date-button').showView(document.getId('input-glucose-date'));
+document.getId('input-glucose-time-done').showView(document.getId('input-glucose'));
+document.getId('input-glucose-date-done').showView(document.getId('input-glucose'));
+
 document.getId('input-food-back').showView(vHome);
+document.getId('input-food-time-button').showView(document.getId('input-food-time'));
+document.getId('input-food-date-button').showView(document.getId('input-food-date'));
+document.getId('input-food-time-done').showView(document.getId('input-food'));
+document.getId('input-food-date-done').showView(document.getId('input-food'));
+
+
 document.getId('input-exercise-back').showView(vHome);
+document.getId('input-exercise-time-button').showView(document.getId('input-exercise-time'));
+document.getId('input-exercise-date-button').showView(document.getId('input-exercise-date'));
+document.getId('input-exercise-time-done').showView(document.getId('input-exercise'));
+document.getId('input-exercise-date-done').showView(document.getId('input-exercise'));
+
 
 document.getId('input-exercise-options-dropdown').showView(document.getId('input-exercise-options'))
 document.getId('input-exercise-running').showView(document.getId('input-exercise'))

@@ -287,9 +287,24 @@ h1 {
 
 /* Data input */
 
+.input-datetime {
+  left: 21px;
+
+  height: 110px;
+  width: 598px;
+}
+
 .input-action {
   height: 87px;
   width: 285px;
+}
+
+.input-dialog-done {
+  left: 78px;
+  bottom: 180px;
+
+  height: 72px;
+  width: 482px;
 }
 
 #input-glucose {
@@ -304,6 +319,14 @@ h1 {
     width: 45px;
   }
 
+  #input-glucose-time-button {
+    top: 388px;
+  }
+
+  #input-glucose-date-button {
+    top: 598px;
+  }
+
   #input-glucose-cancel {
     top: 763px;
     left: 20px;
@@ -312,6 +335,14 @@ h1 {
   #input-glucose-done {
     top: 763px;
     right: 23px;
+  }
+
+  #input-glucose-time {
+    background-image: url(../img/data_input/glucose_time.jpg);
+  }
+
+  #input-glucose-date {
+    background-image: url(../img/data_input/glucose_date.jpg);
   }
 
 #input-food {
@@ -326,6 +357,14 @@ h1 {
     width: 45px;
   }
 
+  #input-food-time-button {
+    top: 608px;
+  }
+
+  #input-food-date-button {
+    top: 819px;
+  }
+
   #input-food-cancel {
     top: 982px;
     left: 20px;
@@ -334,6 +373,14 @@ h1 {
   #input-food-done {
     top: 982px;
     right: 23px;
+  }
+
+  #input-food-time {
+    background-image: url(../img/data_input/food_time.jpg);
+  }
+
+  #input-food-date {
+    background-image: url(../img/data_input/food_date.jpg);
   }
 
 #input-exercise {
@@ -346,6 +393,14 @@ h1 {
 
     height: 90px;
     width: 45px;
+  }
+
+  #input-exercise-time-button {
+    top: 608px;
+  }
+
+  #input-exercise-date-button {
+    top: 819px;
   }
 
   #input-exercise-options-dropdown {
@@ -364,6 +419,14 @@ h1 {
   #input-exercise-done {
     top: 982px;
     right: 23px;
+  }
+
+  #input-exercise-time {
+    background-image: url(../img/data_input/exercise_time.jpg);
+  }
+
+  #input-exercise-date {
+    background-image: url(../img/data_input/exercise_date.jpg);
   }
 
 #input-exercise-options {
