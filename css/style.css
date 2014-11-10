@@ -19,21 +19,37 @@ h1 {
   padding: 10em 2em;
   height: 1136px;
   width: 640px;
+  position: relative;
 }
+
+  #iphone::before {
+    content: "";
+    display: block;
+
+    border-radius: 50%;
+    border: 3px solid #000;
+    height: 100px;
+    width: 100px;
+
+    position: absolute;
+    bottom: 26px;
+    left: 50%;
+    margin-left: -51px;
+  }
 
   #iphone::after {
     content: "";
     display: block;
 
-    border-radius: 50%;
+    border-radius: 10px;
     border: 2px solid #000;
-    height: 100px;
-    width: 100px;
+    height: 36px;
+    width: 36px;
 
-    position: relative;
-    bottom: -27px;
+    position: absolute;
+    bottom: 58px;
     left: 50%;
-    margin-left: -50px;
+    margin-left: -18px;
   }
 
 .views {
@@ -46,6 +62,36 @@ h1 {
 
   text-align: center;
 }
+
+  .views::before {
+    content: "";
+    display: block;
+
+    border-radius: 15px;
+    border: 2px solid #000;
+    height: 15px;
+    width: 120px;
+
+    position: absolute;
+    top: -70px;
+    left: 50%;
+    margin-left: -60px;
+  }
+
+  .views::after {
+    content: "";
+    display: block;
+
+    border-radius: 50%;
+    border: 2px solid #000;
+    height: 20px;
+    width: 20px;
+
+    position: absolute;
+    top: -125px;
+    left: 50%;
+    margin-left: -10px;
+  }
 
   .views p {
     color: #fff;
