@@ -43,13 +43,12 @@ h1 {
 
     border-radius: 10px;
     border: 2px solid #000;
-    height: 36px;
-    width: 36px;
+    height: 15px;
+    width: 15px;
 
     position: absolute;
-    bottom: 58px;
-    left: 50%;
-    margin-left: -18px;
+    top: 92px;
+    left: 250px;
   }
 
 .views {
