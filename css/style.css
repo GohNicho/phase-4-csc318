@@ -417,6 +417,29 @@ h1 {
   }
 
 
+/* Trends */
+
+#glucose-trends {
+  background-image: url(../img/trends/recent.png);
+}
+
+  #glucose-trends-close-top {
+    left: 0;
+    top: 0;
+
+    height: 162px;
+    width: 640px;
+  }
+
+  #glucose-trends-close-bottom {
+    left: 0;
+    bottom: 0;
+
+    height: 162px;
+    width: 640px;
+  }
+
+
 /* Passcode */
 
 #passcode {

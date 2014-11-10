@@ -40,12 +40,17 @@ document.getId('home-add-exercise').showView(document.getId('input-exercise'));
 
 // Home trends menu
 document.getId('home-trends-close').showView(vHome);
+document.getId('home-trends-glucose').showView(document.getId('glucose-trends'));
 
 // Home menu
 document.getId('home-menu-settings').showView(document.getId('settings'))
 document.getId('home-menu-reminders').showView(document.getId('reminders-day'))
 document.getId('home-menu-passcode').showView(document.getId('passcode'))
 document.getId('home-menu-cancel').showView(vHome)
+
+// Glucose trends
+document.getId('glucose-trends-close-top').showView(vHome);
+document.getId('glucose-trends-close-bottom').showView(vHome);
 
 // Passcode
 document.getId('passcode-back').showView(vHome);
