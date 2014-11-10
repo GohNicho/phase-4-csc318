@@ -43,6 +43,7 @@ document.getId('home-trends-close').showView(vHome);
 
 // Home menu
 document.getId('home-menu-settings').showView(document.getId('settings'))
+document.getId('home-menu-reminders').showView(document.getId('reminders'))
 document.getId('home-menu-passcode').showView(document.getId('passcode'))
 document.getId('home-menu-cancel').showView(vHome)
 
@@ -81,3 +82,18 @@ document.getId('input-exercise-date-done').showView(document.getId('input-exerci
 
 document.getId('input-exercise-options-dropdown').showView(document.getId('input-exercise-options'))
 document.getId('input-exercise-running').showView(document.getId('input-exercise'))
+
+
+// Reminders
+var vReminderDetails = document.getId('reminder-details');
+document.getId('reminders-back').showView(vHome);
+document.getId('reminder-example').showView(vReminderDetails);
+
+document.getId('reminder-details-back').showView(document.getId('reminders'));
+document.getId('reminder-details-settings').showView(document.getId('reminder-details-repeat'));
+
+document.getId('reminder-details-repeat-close').showView(vReminderDetails);
+document.getId('reminder-details-repeat-time').showView(document.getId('reminder-details-time'));
+
+document.getId('reminder-details-time-close').showView(vReminderDetails);
+document.getId('reminder-details-time-repeat').showView(document.getId('reminder-details-repeat'));
