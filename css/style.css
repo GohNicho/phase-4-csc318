@@ -81,6 +81,116 @@ h1 {
   }
 
 
+/* Tutorial */
+
+.tutorial-next {
+  height: 76px;
+  width: 224px;
+}
+
+.tutorial-skip {
+  height: 50px;
+  width: 150px;
+}
+
+#tutorial-intro {
+  background-image: url(../img/tutorial/intro.png);
+}
+
+  #tutorial-intro-skip {
+    right: 0;
+    bottom: 7px;
+  }
+
+  #tutorial-intro-app {
+    left: 87px;
+    top: 424px;
+
+    height: 34px;
+    width: 229px;
+  }
+
+  #tutorial-intro-input {
+    left: 87px;
+    top: 461px;
+
+    height: 34px;
+    width: 191px;
+  }
+
+  #tutorial-intro-reminders {
+    left: 87px;
+    top: 498px;
+
+    height: 34px;
+    width: 191px;
+  }
+
+  #tutorial-intro-progress {
+    left: 87px;
+    top: 535px;
+
+    height: 34px;
+    width: 261px;
+  }
+
+#tutorial-app {
+  background-image: url(../img/tutorial/app.png);
+}
+
+  #tutorial-app-next {
+    right: 20px;
+    bottom: 65px;
+  }
+
+  #tutorial-app-exit {
+    right: 0;
+    bottom: 7px;
+  }
+
+#tutorial-input {
+  background-image: url(../img/tutorial/input.png);
+}
+
+  #tutorial-input-next {
+    left: 64px;
+    bottom: 175px;
+  }
+
+  #tutorial-input-exit {
+    right: 165px;
+    bottom: 3px;
+  }
+
+#tutorial-reminders {
+  background-image: url(../img/tutorial/reminders.png);
+}
+
+  #tutorial-reminders-next {
+    right: 76px;
+    top: 450px;
+  }
+
+  #tutorial-reminders-exit {
+    right: 5px;
+    bottom: 7px;
+  }
+
+
+#tutorial-progress {
+  background-image: url(../img/tutorial/progress.png);
+}
+
+  #tutorial-progress-next {
+    right: 70px;
+    top: 370px;
+  }
+
+  #tutorial-progress-exit {
+    right: 5px;
+    bottom: 12px;
+  }
+
 /* Home page */
 
 #home {

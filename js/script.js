@@ -1,7 +1,29 @@
-// Home page
 var vHome = document.getId('home');
-vHome.show();
 
+// Tutorial
+var vTutIntro = document.getId('tutorial-intro');
+vTutIntro.show();
+
+// Tutorial skip/exit button
+var skips = document.getElementsByClassName('tutorial-skip');
+for (i = 0; i < skips.length; i++) {
+  skips[i].showView(vHome);
+}
+
+document.getId('tutorial-intro-app').showView(document.getId('tutorial-app'));
+document.getId('tutorial-intro-input').showView(document.getId('tutorial-input'));
+document.getId('tutorial-intro-reminders').showView(document.getId('tutorial-reminders'));
+document.getId('tutorial-intro-progress').showView(document.getId('tutorial-progress'));
+
+document.getId('tutorial-app-next').showView(document.getId('tutorial-input'));
+
+document.getId('tutorial-input-next').showView(document.getId('tutorial-reminders'));
+
+document.getId('tutorial-reminders-next').showView(document.getId('tutorial-progress'));
+
+document.getId('tutorial-progress-next').showView(vHome);
+
+// Home page
 document.getId('home-estimate-toggle').showView(document.getId('home-estimate'));
 document.getId('home-estimate-back').showView(vHome);
 document.getId('home-add-button').showView(document.getId('home-add'));
@@ -33,7 +55,7 @@ document.getId('settings-back').showView(vHome);
 // Input
 // Input cancel/done buttons
 var inputActions = document.getElementsByClassName('input-action');
-for (var i = 0; i < inputActions.length; i++) {
+for (i = 0; i < inputActions.length; i++) {
   inputActions[i].showView(vHome);
 }
 
