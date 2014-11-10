@@ -80,6 +80,13 @@ h1 {
     background-color: rgba(0,255,0,.5);
   }
 
+.back {
+  left: 5px;
+  top: 5px;
+
+  height: 90px;
+  width: 90px;
+}
 
 /* Tutorial */
 
@@ -371,28 +378,12 @@ h1 {
   background-image: url(../img/passcode/passcode.png);
 }
 
-  #passcode-back {
-    left: 5px;
-    top: 5px;
-
-    height: 90px;
-    width: 90px;
-  }
-
 
 /* Settings */
 
 #settings {
   background-image: url(../img/settings/settings.png);
 }
-
-  #settings-back {
-    left: 5px;
-    top: 5px;
-
-    height: 90px;
-    width: 90px;
-  }
 
 
 /* Data input */
@@ -553,17 +544,63 @@ h1 {
 
 
 /* Reminders */
-#reminders {
+#reminders-day {
+  background-image: url(../img/reminders/day_view.png);
+}
+
+  #reminders-month-tab {
+    right: 1px;
+    top: 124px;
+
+    height: 42px;
+    width: 315px;
+  }
+
+  #reminders-day-add {
+    right: 20px;
+    bottom: 20px;
+
+    height: 135px;
+    width: 135px;
+    border-radius: 50%;
+  }
+
+  #reminder-edit {
+    right: 158px;
+    top: 540px;
+
+    height: 50px;
+    width: 50px;
+  }
+
+#reminders-month {
+  background-image: url(../img/reminders/month_view.png);
+}
+
+  #reminders-day-tab {
+    left: 1px;
+    top: 124px;
+
+    height: 42px;
+    width: 315px;
+  }
+
+  #reminders-month-add {
+    right: 20px;
+    bottom: 20px;
+
+    height: 135px;
+    width: 135px;
+    border-radius: 50%;
+  }
+
+#reminders-add {
   background-image: url(../img/reminders/list.png);
 }
 
-  #reminders-back {
-    left: 5px;
-    top: 5px;
-
-    height: 90px;
-    width: 90px;
-  }
+#reminders {
+  background-image: url(../img/reminders/list.png);
+}
 
   #reminder-example {
     left: 26px;
@@ -576,14 +613,6 @@ h1 {
 #reminder-details {
   background-image: url(../img/reminders/details.png);
 }
-
-  #reminder-details-back {
-    left: 5px;
-    top: 5px;
-
-    height: 90px;
-    width: 90px;
-  }
 
   #reminder-details-settings {
     left: 1px;
