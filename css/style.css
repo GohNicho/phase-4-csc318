@@ -360,14 +360,6 @@ h1 {
     width: 627px;
   }
 
-  #home-menu-passcode {
-    left: 5px;
-    bottom: 149px;
-
-    height: 99px;
-    width: 627px;
-  }
-
   #home-menu-cancel {
     left: 5px;
     bottom: 22px;
@@ -398,13 +390,6 @@ h1 {
     height: 162px;
     width: 640px;
   }
-
-
-/* Passcode */
-
-#passcode {
-  background-image: url(../img/passcode/passcode.png);
-}
 
 
 /* Settings */
