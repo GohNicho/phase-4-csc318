@@ -292,10 +292,6 @@ h1 {
     width: 575px;
   }
 
-#home-estimate {
-  background-image: url(../img/home/estimates.png);
-}
-
 #home-add {
   background-image: url(../img/home/add.png);
 }
@@ -378,42 +374,6 @@ h1 {
 
     height: 99px;
     width: 627px;
-  }
-
-#home-trends {
-  background-image: url(../img/home/other_trends.png);
-}
-
-  #home-trends-close {
-    left: 14px;
-    top: 300px;
-
-    height: 74px;
-    width: 74px;
-  }
-
-  #home-trends-glucose {
-    left: 57px;
-    top: 427px;
-
-    height: 92px;
-    width: 526px;
-  }
-
-  #home-trends-food {
-    left: 57px;
-    top: 521px;
-
-    height: 92px;
-    width: 526px;
-  }
-
-  #home-trends-exercise {
-    left: 57px;
-    top: 616px;
-
-    height: 92px;
-    width: 526px;
   }
 
 
