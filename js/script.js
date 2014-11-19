@@ -90,6 +90,7 @@ document.getId('reminders-day-tab').showView(document.getId('reminders-day'));
 document.getId('reminders-month-add').showView(document.getId('reminders-add'));
 
 document.getId('reminders-add-back').showView(document.getId('reminders-day'));
+document.getId('reminders-add-medicine').showView(vReminderDetails);
 
 document.getId('reminders-back').showView(vHome);
 document.getId('reminder-example').showView(vReminderDetails);

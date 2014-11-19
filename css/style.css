@@ -611,6 +611,14 @@ h1 {
   background-image: url(../img/reminders/add.png);
 }
 
+  #reminders-add-medicine {
+    left: 55px;
+    top: 264px;
+
+    height: 291px;
+    width: 241px;
+  }
+
 #reminders {
   background-image: url(../img/reminders/list.png);
 }
