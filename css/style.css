@@ -126,11 +126,11 @@ h1 {
   }
 
 .back {
-  left: 5px;
-  top: 5px;
+  left: 4px;
+  top: 4px;
 
-  height: 90px;
-  width: 90px;
+  height: 70px;
+  width: 70px;
 }
 
 /* Tutorial */
@@ -259,34 +259,42 @@ h1 {
   }
 
   #home-add-button {
-    right: 14px;
-    bottom: 15px;
+    right: 13px;
+    bottom: 13px;
 
-    height: 145px;
-    width: 145px;
+    height: 130px;
+    width: 130px;
 
     border-radius: 50%;
   }
 
   #home-instructions-button {
-    right: 21px;
-    top: 14px;
+    right: 8px;
+    top: 6px;
 
     height: 60px;
     width: 60px;
   }
 
-  #home-menu-button {
-    left: 0;
-    top: 0;
+  #home-menu-settings {
+    left: 10px;
+    top: 5px;
 
-    height: 89px;
-    width: 98px;
+    height: 62px;
+    width: 62px;
+  }
+
+  #home-menu-reminders {
+    left: 92px;
+    top: 5px;
+
+    height: 62px;
+    width: 62px;
   }
 
   #home-trends-button {
     left: 32px;
-    bottom: 512px;
+    bottom: 500px;
 
     height: 74px;
     width: 575px;
@@ -340,34 +348,6 @@ h1 {
     width: 74px;
   }
 
-#home-menu {
-  background-image: url(../img/home/menu.png);
-}
-
-  #home-menu-settings {
-    left: 5px;
-    bottom: 255px;
-
-    height: 99px;
-    width: 627px;
-  }
-
-  #home-menu-reminders {
-    left: 5px;
-    bottom: 145px;
-
-    height: 99px;
-    width: 627px;
-  }
-
-  #home-menu-cancel {
-    left: 5px;
-    bottom: 22px;
-
-    height: 99px;
-    width: 627px;
-  }
-
 
 /* Trends */
 
@@ -402,10 +382,10 @@ h1 {
 /* Data input */
 
 .input-datetime {
-  left: 21px;
+  left: 0;
 
-  height: 110px;
-  width: 598px;
+  height: 80px;
+  width: 640px;
 }
 
 .input-action {
@@ -424,14 +404,6 @@ h1 {
 #input-glucose {
   background-image: url(../img/data_input/glucose.jpg);
 }
-
-  #input-glucose-back {
-    left: 5px;
-    top: 5px;
-
-    height: 90px;
-    width: 45px;
-  }
 
   #input-glucose-time-button {
     top: 388px;
@@ -463,29 +435,21 @@ h1 {
   background-image: url(../img/data_input/food.jpg);
 }
 
-  #input-food-back {
-    left: 5px;
-    top: 5px;
-
-    height: 90px;
-    width: 45px;
-  }
-
   #input-food-time-button {
-    top: 608px;
+    top: 540px;
   }
 
   #input-food-date-button {
-    top: 819px;
+    top: 705px;
   }
 
   #input-food-cancel {
-    top: 982px;
+    top: 830px;
     left: 20px;
   }
 
   #input-food-done {
-    top: 982px;
+    top: 830px;
     right: 23px;
   }
 
@@ -500,14 +464,6 @@ h1 {
 #input-exercise {
   background-image: url(../img/data_input/exercise.jpg);
 }
-
-  #input-exercise-back {
-    left: 5px;
-    top: 5px;
-
-    height: 90px;
-    width: 45px;
-  }
 
   #input-exercise-time-button {
     top: 608px;

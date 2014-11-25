@@ -27,7 +27,6 @@ document.getId('tutorial-progress-next').showView(vHome);
 document.getId('home-add-button').showView(document.getId('home-add'));
 document.getId('home-instructions-button').showView(document.getId('home-instructions'));
 document.getId('home-instructions-close').showView(vHome);
-document.getId('home-menu-button').showView(document.getId('home-menu'));
 document.getId('home-trends-button').showView(document.getId('glucose-trends'));
 
 // Home add menu
@@ -39,7 +38,6 @@ document.getId('home-add-exercise').showView(document.getId('input-exercise'));
 // Home menu
 document.getId('home-menu-settings').showView(document.getId('settings'))
 document.getId('home-menu-reminders').showView(document.getId('reminders-day'))
-document.getId('home-menu-cancel').showView(vHome)
 
 // Glucose trends
 document.getId('glucose-trends-close-top').showView(vHome);
