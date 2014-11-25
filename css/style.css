@@ -340,6 +340,14 @@ h1 {
   background-image: url(../img/home/instructions.png);
 }
 
+  #home-instructions-tutorial {
+    left: 170px;
+    bottom: 74px;
+
+    height: 74px;
+    width: 310px;
+  }
+
   #home-instructions-close {
     right: 17px;
     top: 15px;
@@ -534,8 +542,16 @@ h1 {
 
 /* Reminders */
 #reminders-day {
-  background-image: url(../img/reminders/day_view.png);
+  background-image: url(../img/reminders/day_view_5.png);
 }
+
+  #reminder-day-time-1030 {
+    left: 152px;
+    top: 296px;
+
+    height: 70px;
+    width: 70px;
+  }
 
   #reminders-month-tab {
     right: 1px;
@@ -546,20 +562,32 @@ h1 {
   }
 
   #reminders-day-add {
-    right: 20px;
-    bottom: 20px;
+    right: 13px;
+    bottom: 13px;
 
-    height: 135px;
-    width: 135px;
+    height: 130px;
+    width: 130px;
     border-radius: 50%;
   }
 
   #reminder-edit {
-    right: 158px;
-    top: 540px;
+    right: 23px;
+    top: 664px;
 
     height: 50px;
     width: 50px;
+  }
+
+#reminders-day-alt {
+  background-image: url(../img/reminders/day_view_1030.png);
+}
+
+  #reminder-day-time-5 {
+    right: 201px;
+    top: 499px;
+
+    height: 70px;
+    width: 70px;
   }
 
 #reminders-month {
@@ -575,11 +603,11 @@ h1 {
   }
 
   #reminders-month-add {
-    right: 20px;
-    bottom: 20px;
+    right: 13px;
+    bottom: 13px;
 
-    height: 135px;
-    width: 135px;
+    height: 130px;
+    width: 130px;
     border-radius: 50%;
   }
 
@@ -589,7 +617,7 @@ h1 {
 
   #reminders-add-medicine {
     left: 55px;
-    top: 264px;
+    top: 375px;
 
     height: 291px;
     width: 241px;
@@ -613,7 +641,7 @@ h1 {
 
   #reminder-details-settings {
     left: 1px;
-    top: 412px;
+    top: 399px;
 
     height: 131px;
     width: 636px;

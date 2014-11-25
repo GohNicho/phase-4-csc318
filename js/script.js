@@ -26,6 +26,7 @@ document.getId('tutorial-progress-next').showView(vHome);
 // Home page
 document.getId('home-add-button').showView(document.getId('home-add'));
 document.getId('home-instructions-button').showView(document.getId('home-instructions'));
+document.getId('home-instructions-tutorial').showView(vTutIntro);
 document.getId('home-instructions-close').showView(vHome);
 document.getId('home-trends-button').showView(document.getId('glucose-trends'));
 
@@ -84,6 +85,8 @@ document.getId('reminders-day-back').showView(vHome);
 document.getId('reminders-month-tab').showView(document.getId('reminders-month'));
 document.getId('reminder-edit').showView(vReminderDetails);
 document.getId('reminders-day-add').showView(document.getId('reminders-add'));
+document.getId('reminder-day-time-5').showView(document.getId('reminders-day'));
+document.getId('reminder-day-time-1030').showView(document.getId('reminders-day-alt'));
 
 document.getId('reminders-month-back').showView(vHome);
 document.getId('reminders-day-tab').showView(document.getId('reminders-day'));
