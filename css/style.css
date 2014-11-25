@@ -466,28 +466,28 @@ h1 {
 }
 
   #input-exercise-time-button {
-    top: 608px;
+    top: 468px;
   }
 
   #input-exercise-date-button {
-    top: 819px;
+    top: 625px;
   }
 
   #input-exercise-options-dropdown {
-    left: 22px;
-    top: 179px;
+    left: 0;
+    top: 150px;
 
-    height: 108px;
-    width: 595px;
+    height: 82px;
+    width: 640px;
   }
 
   #input-exercise-cancel {
-    top: 982px;
+    top: 755px;
     left: 20px;
   }
 
   #input-exercise-done {
-    top: 982px;
+    top: 755px;
     right: 23px;
   }
 
@@ -504,11 +504,11 @@ h1 {
 }
 
   #input-exercise-running {
-    left: 22px;
-    top: 429px;
+    left: 0;
+    bottom: 236px;
 
     height: 68px;
-    width: 595px;
+    width: 640px;
   }
 
 
