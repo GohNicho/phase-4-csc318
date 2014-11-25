@@ -406,20 +406,20 @@ h1 {
 }
 
   #input-glucose-time-button {
-    top: 388px;
+    top: 312px;
   }
 
   #input-glucose-date-button {
-    top: 598px;
+    top: 470px;
   }
 
   #input-glucose-cancel {
-    top: 763px;
+    top: 600px;
     left: 20px;
   }
 
   #input-glucose-done {
-    top: 763px;
+    top: 600px;
     right: 23px;
   }
 
