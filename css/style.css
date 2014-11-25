@@ -435,6 +435,14 @@ h1 {
   background-image: url(../img/data_input/food.jpg);
 }
 
+  #input-food-photo-button {
+    right: 5px;
+    top: 0;
+
+    height: 80px;
+    width: 80px;
+  }
+
   #input-food-time-button {
     top: 540px;
   }
@@ -459,6 +467,18 @@ h1 {
 
   #input-food-date {
     background-image: url(../img/data_input/food_date.jpg);
+  }
+
+#input-food-photo {
+  background-image: url(../img/data_input/food_photo.jpg);
+}
+
+  #input-food-photo-back {
+    left: 5px;
+    bottom: 80px;
+
+    height: 80px;
+    width: 80px;
   }
 
 #input-exercise {

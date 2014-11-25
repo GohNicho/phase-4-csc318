@@ -60,8 +60,10 @@ document.getId('input-glucose-time-done').showView(document.getId('input-glucose
 document.getId('input-glucose-date-done').showView(document.getId('input-glucose'));
 
 document.getId('input-food-back').showView(vHome);
+document.getId('input-food-photo-button').showView(document.getId('input-food-photo'));
 document.getId('input-food-time-button').showView(document.getId('input-food-time'));
 document.getId('input-food-date-button').showView(document.getId('input-food-date'));
+document.getId('input-food-photo-back').showView(document.getId('input-food'));
 document.getId('input-food-time-done').showView(document.getId('input-food'));
 document.getId('input-food-date-done').showView(document.getId('input-food'));
 
