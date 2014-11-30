@@ -136,111 +136,72 @@ h1 {
 /* Tutorial */
 
 .tutorial-next {
-  height: 76px;
-  width: 224px;
+  left: 30px;
+  bottom: 106px;
+
+  height: 70px;
+  width: 210px;
 }
 
-.tutorial-skip {
+.tutorial-exit {
+  left: 30px;
+  bottom: 50px;
+
   height: 50px;
   width: 150px;
 }
 
-#tutorial-intro {
-  background-image: url(../img/tutorial/intro.png);
+#tutorial-1 {
+  background-image: url(../img/tutorial/1_intro.png);
 }
 
-  #tutorial-intro-skip {
-    right: 0;
-    bottom: 7px;
-  }
-
-  #tutorial-intro-app {
-    left: 87px;
-    top: 424px;
-
-    height: 34px;
-    width: 229px;
-  }
-
-  #tutorial-intro-input {
-    left: 87px;
-    top: 461px;
-
-    height: 34px;
-    width: 191px;
-  }
-
-  #tutorial-intro-reminders {
-    left: 87px;
-    top: 498px;
-
-    height: 34px;
-    width: 191px;
-  }
-
-  #tutorial-intro-progress {
-    left: 87px;
-    top: 535px;
-
-    height: 34px;
-    width: 261px;
-  }
-
-#tutorial-app {
-  background-image: url(../img/tutorial/app.png);
+#tutorial-2 {
+  background-image: url(../img/tutorial/2_home.png);
 }
 
-  #tutorial-app-next {
-    right: 20px;
-    bottom: 65px;
-  }
-
-  #tutorial-app-exit {
-    right: 0;
-    bottom: 7px;
-  }
-
-#tutorial-input {
-  background-image: url(../img/tutorial/input.png);
+#tutorial-3 {
+  background-image: url(../img/tutorial/3_input.png);
 }
 
-  #tutorial-input-next {
-    left: 64px;
-    bottom: 175px;
-  }
-
-  #tutorial-input-exit {
-    right: 165px;
-    bottom: 3px;
-  }
-
-#tutorial-reminders {
-  background-image: url(../img/tutorial/reminders.png);
+#tutorial-4 {
+  background-image: url(../img/tutorial/4_blood_glucose.png);
 }
 
-  #tutorial-reminders-next {
-    right: 76px;
-    top: 450px;
-  }
-
-  #tutorial-reminders-exit {
-    right: 5px;
-    bottom: 7px;
-  }
-
-#tutorial-progress {
-  background-image: url(../img/tutorial/progress.png);
+#tutorial-5 {
+  background-image: url(../img/tutorial/5_meal.png);
 }
 
-  #tutorial-progress-next {
-    right: 70px;
-    top: 370px;
-  }
+#tutorial-6 {
+  background-image: url(../img/tutorial/5_meal_details.png);
+}
 
-  #tutorial-progress-exit {
-    right: 5px;
-    bottom: 12px;
-  }
+#tutorial-7 {
+  background-image: url(../img/tutorial/7_exercise.png);
+}
+
+#tutorial-8 {
+  background-image: url(../img/tutorial/8_hp_reminder.png);
+}
+
+#tutorial-9 {
+  background-image: url(../img/tutorial/9_add_reminder.png);
+}
+
+#tutorial-10 {
+  background-image: url(../img/tutorial/10_reminder_details.png);
+}
+
+#tutorial-11 {
+  background-image: url(../img/tutorial/11_graph.png);
+}
+
+#tutorial-12 {
+  background-image: url(../img/tutorial/12_info.png);
+}
+
+#tutorial-13 {
+  background-image: url(../img/tutorial/13_repeat.png);
+}
 
 
 /* Home page */
@@ -360,24 +321,8 @@ h1 {
 /* Trends */
 
 #glucose-trends {
-  background-image: url(../img/trends/recent.png);
+  background-image: url(../img/trends/detailed_trends.png);
 }
-
-  #glucose-trends-close-top {
-    left: 0;
-    top: 0;
-
-    height: 162px;
-    width: 640px;
-  }
-
-  #glucose-trends-close-bottom {
-    left: 0;
-    bottom: 0;
-
-    height: 162px;
-    width: 640px;
-  }
 
 
 /* Settings */
@@ -621,18 +566,6 @@ h1 {
 
     height: 291px;
     width: 241px;
-  }
-
-#reminders {
-  background-image: url(../img/reminders/list.png);
-}
-
-  #reminder-example {
-    left: 26px;
-    top: 173px;
-
-    height: 119px;
-    width: 590px;
   }
 
 #reminder-details {

@@ -1,32 +1,34 @@
 var vHome = document.getId('home');
 
 // Tutorial
-var vTutIntro = document.getId('tutorial-intro');
-vTutIntro.show();
+var vTut1 = document.getId('tutorial-1');
+vTut1.show();
 
-// Tutorial skip/exit button
-var skips = document.getElementsByClassName('tutorial-skip');
+// Tutorial exit button
+var skips = document.getElementsByClassName('tutorial-exit');
 for (i = 0; i < skips.length; i++) {
   skips[i].showView(vHome);
 }
 
-document.getId('tutorial-intro-app').showView(document.getId('tutorial-app'));
-document.getId('tutorial-intro-input').showView(document.getId('tutorial-input'));
-document.getId('tutorial-intro-reminders').showView(document.getId('tutorial-reminders'));
-document.getId('tutorial-intro-progress').showView(document.getId('tutorial-progress'));
+// Tutorial next buttons
+document.getId('tutorial-1-next').showView(document.getId('tutorial-2'));
+document.getId('tutorial-2-next').showView(document.getId('tutorial-3'));
+document.getId('tutorial-3-next').showView(document.getId('tutorial-4'));
+document.getId('tutorial-4-next').showView(document.getId('tutorial-5'));
+document.getId('tutorial-5-next').showView(document.getId('tutorial-6'));
+document.getId('tutorial-6-next').showView(document.getId('tutorial-7'));
+document.getId('tutorial-7-next').showView(document.getId('tutorial-8'));
+document.getId('tutorial-8-next').showView(document.getId('tutorial-9'));
+document.getId('tutorial-9-next').showView(document.getId('tutorial-10'));
+document.getId('tutorial-10-next').showView(document.getId('tutorial-11'));
+document.getId('tutorial-11-next').showView(document.getId('tutorial-12'));
+document.getId('tutorial-12-next').showView(document.getId('tutorial-13'));
 
-document.getId('tutorial-app-next').showView(document.getId('tutorial-input'));
-
-document.getId('tutorial-input-next').showView(document.getId('tutorial-reminders'));
-
-document.getId('tutorial-reminders-next').showView(document.getId('tutorial-progress'));
-
-document.getId('tutorial-progress-next').showView(vHome);
 
 // Home page
 document.getId('home-add-button').showView(document.getId('home-add'));
 document.getId('home-instructions-button').showView(document.getId('home-instructions'));
-document.getId('home-instructions-tutorial').showView(vTutIntro);
+document.getId('home-instructions-tutorial').showView(vTut1);
 document.getId('home-instructions-close').showView(vHome);
 document.getId('home-trends-button').showView(document.getId('glucose-trends'));
 
@@ -41,8 +43,7 @@ document.getId('home-menu-settings').showView(document.getId('settings'))
 document.getId('home-menu-reminders').showView(document.getId('reminders-day'))
 
 // Glucose trends
-document.getId('glucose-trends-close-top').showView(vHome);
-document.getId('glucose-trends-close-bottom').showView(vHome);
+document.getId('glucose-trends-back').showView(vHome);
 
 // Settings
 document.getId('settings-back').showView(vHome);
