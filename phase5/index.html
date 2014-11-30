@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>CSC318 Phase 5: Interactive Mockup</title>
+  <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+  <h1>CSC318 Phase 5: Interactive Mockup</h1>
+  <h2>Nicholas Goh, Zhengnan (Windy) Wang, Eugene Yue-Hin Cheung, Akira Kakkar</h2>
+
+  <div id="iphone">
+    <div class="views">
+      <p>9:21 AM</p>
+
+      <!-- Tutorial -->
+      <div id="tutorial-1">
+        <div class="tutorial-next" id="tutorial-1-next"></div>
+        <div class="tutorial-exit"></div>
+      </div>
+
+      <div id="tutorial-2">
+        <div class="tutorial-next" id="tutorial-2-next"></div>
+        <div class="tutorial-exit"></div>
+      </div>
+
+      <div id="tutorial-3">
+        <div class="tutorial-next" id="tutorial-3-next"></div>
+        <div class="tutorial-exit"></div>
+      </div>
+
+      <div id="tutorial-4">
+        <div class="tutorial-next" id="tutorial-4-next"></div>
+        <div class="tutorial-exit"></div>
+      </div>
+
+      <div id="tutorial-5">
+        <div class="tutorial-next" id="tutorial-5-next"></div>
+        <div class="tutorial-exit"></div>
+      </div>
+
+      <div id="tutorial-6">
+        <div class="tutorial-next" id="tutorial-6-next"></div>
+        <div class="tutorial-exit"></div>
+      </div>
+
+      <div id="tutorial-7">
+        <div class="tutorial-next" id="tutorial-7-next"></div>
+        <div class="tutorial-exit"></div>
+      </div>
+
+      <div id="tutorial-8">
+        <div class="tutorial-next" id="tutorial-8-next"></div>
+        <div class="tutorial-exit"></div>
+      </div>
+
+      <div id="tutorial-9">
+        <div class="tutorial-next" id="tutorial-9-next"></div>
+        <div class="tutorial-exit"></div>
+      </div>
+
+      <div id="tutorial-10">
+        <div class="tutorial-next" id="tutorial-10-next"></div>
+        <div class="tutorial-exit"></div>
+      </div>
+
+      <div id="tutorial-11">
+        <div class="tutorial-next" id="tutorial-11-next"></div>
+        <div class="tutorial-exit"></div>
+      </div>
+
+      <div id="tutorial-12">
+        <div class="tutorial-next" id="tutorial-12-next"></div>
+        <div class="tutorial-exit"></div>
+      </div>
+
+      <div id="tutorial-13">
+        <div class="tutorial-exit"></div>
+      </div>
+
+      <!-- Home -->
+      <div id="home">
+        <div id="home-add-button"></div>
+        <div id="home-menu-settings"></div>
+        <div id="home-menu-reminders"></div>
+        <div id="home-instructions-button"></div>
+        <div id="home-trends-button"></div>
+      </div>
+
+      <div id="home-add">
+        <div id="home-add-close"></div>
+        <div id="home-add-glucose"></div>
+        <div id="home-add-meal"></div>
+        <div id="home-add-exercise"></div>
+      </div>
+
+      <div id="home-instructions">
+        <div id="home-instructions-close"></div>
+        <div id="home-instructions-tutorial"></div>
+      </div>
+
+
+      <!-- Trends -->
+      <div id="glucose-trends">
+        <div class="back" id="glucose-trends-back"></div>
+      </div>
+
+
+      <!-- Settings -->
+      <div id="settings">
+        <div class="back" id="settings-back"></div>
+      </div>
+
+
+      <!-- Input: glucose -->
+      <div id="input-glucose">
+        <div class="back" id="input-glucose-back"></div>
+        <div class="input-datetime" id="input-glucose-time-button"></div>
+        <div class="input-datetime" id="input-glucose-date-button"></div>
+        <div class="input-action" id="input-glucose-cancel"></div>
+        <div class="input-action" id="input-glucose-done"></div>
+      </div>
+
+      <div id="input-glucose-time">
+        <div class="input-dialog-done" id="input-glucose-time-done"></div>
+      </div>
+
+      <div id="input-glucose-date">
+        <div class="input-dialog-done" id="input-glucose-date-done"></div>
+      </div>
+
+
+      <!-- Input: food -->
+      <div id="input-food">
+        <div class="back" id="input-food-back"></div>
+        <div id="input-food-photo-button"></div>
+        <div class="input-datetime" id="input-food-time-button"></div>
+        <div class="input-datetime" id="input-food-date-button"></div>
+        <div class="input-action" id="input-food-cancel"></div>
+        <div class="input-action" id="input-food-done"></div>
+      </div>
+
+      <div id="input-food-photo">
+        <div id="input-food-photo-back"></div>
+      </div>
+
+      <div id="input-food-time">
+        <div class="input-dialog-done" id="input-food-time-done"></div>
+      </div>
+
+      <div id="input-food-date">
+        <div class="input-dialog-done" id="input-food-date-done"></div>
+      </div>
+
+
+      <!-- Input: exercise -->
+      <div id="input-exercise">
+        <div class="back" id="input-exercise-back"></div>
+        <div id="input-exercise-options-dropdown"></div>
+        <div class="input-datetime" id="input-exercise-time-button"></div>
+        <div class="input-datetime" id="input-exercise-date-button"></div>
+        <div class="input-action" id="input-exercise-cancel"></div>
+        <div class="input-action" id="input-exercise-done"></div>
+      </div>
+
+      <div id="input-exercise-options">
+        <div id="input-exercise-running"></div>
+      </div>
+
+      <div id="input-exercise-time">
+        <div class="input-dialog-done" id="input-exercise-time-done"></div>
+      </div>
+
+      <div id="input-exercise-date">
+        <div class="input-dialog-done" id="input-exercise-date-done"></div>
+      </div>
+
+      <!-- Reminders -->
+      <div id="reminders-day">
+        <div class="back" id="reminders-day-back"></div>
+        <div id="reminders-month-tab"></div>
+        <div id="reminder-day-time-1030"></div>
+        <div id="reminder-edit"></div>
+        <div id="reminders-day-add"></div>
+      </div>
+
+      <div id="reminders-day-alt">
+        <div id="reminder-day-time-5"></div>
+      </div>
+
+      <div id="reminders-month">
+        <div class="back" id="reminders-month-back"></div>
+        <div id="reminders-day-tab"></div>
+        <div id="reminders-month-add"></div>
+      </div>
+
+      <div id="reminders-add">
+        <div id="reminders-add-medicine"></div>
+        <div class="back" id="reminders-add-back"></div>
+      </div>
+
+      <div id="reminders">
+        <div class="back" id="reminders-back"></div>
+        <div id="reminder-example"></div>
+      </div>
+
+      <div id="reminder-details">
+        <div class="back" id="reminder-details-back"></div>
+        <div id="reminder-details-settings"></div>
+      </div>
+
+      <div id="reminder-details-repeat">
+        <div id="reminder-details-repeat-close"></div>
+        <div id="reminder-details-repeat-time"></div>
+      </div>
+
+      <div id="reminder-details-time">
+        <div id="reminder-details-time-close"></div>
+        <div id="reminder-details-time-repeat"></div>
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="js/core.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

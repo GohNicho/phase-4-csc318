@@ -1,0 +1,622 @@
+body {
+  font: 16px/20px Roboto, 'Roboto Light', Helvetica, Arial, sans-serif;
+}
+
+h1,
+h2 {
+  font-weight: normal;
+  text-align: center;
+}
+
+h1 {
+  line-height: 1.25em;
+}
+
+#iphone {
+  border: 3px solid #000;
+  border-radius: 5em;
+  margin: 5em auto;
+  padding: 10em 2em;
+  height: 1136px;
+  width: 640px;
+  position: relative;
+}
+
+  #iphone::before {
+    content: "";
+    display: block;
+
+    border-radius: 50%;
+    border: 3px solid #000;
+    height: 100px;
+    width: 100px;
+
+    position: absolute;
+    bottom: 26px;
+    left: 50%;
+    margin-left: -51px;
+  }
+
+  #iphone::after {
+    content: "";
+    display: block;
+
+    border-radius: 10px;
+    border: 2px solid #000;
+    height: 15px;
+    width: 15px;
+
+    position: absolute;
+    top: 92px;
+    left: 250px;
+  }
+
+.views {
+  background: #777;
+  border: 2px solid #000;
+
+  position: relative;
+  height: 1136px;
+  width: 640px;
+
+  text-align: center;
+}
+
+  .views::before {
+    content: "";
+    display: block;
+
+    border-radius: 15px;
+    border: 2px solid #000;
+    height: 15px;
+    width: 120px;
+
+    position: absolute;
+    top: -70px;
+    left: 50%;
+    margin-left: -60px;
+  }
+
+  .views::after {
+    content: "";
+    display: block;
+
+    border-radius: 50%;
+    border: 2px solid #000;
+    height: 20px;
+    width: 20px;
+
+    position: absolute;
+    top: -125px;
+    left: 50%;
+    margin-left: -10px;
+  }
+
+  .views p {
+    color: #fff;
+    font-size: 1.25em;
+    margin-top: 0.5em;
+  }
+
+.views > div {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  display: none;
+
+  background-repeat: no-repeat;
+  height: 1096px;
+  width: 640px;
+}
+
+.views > div > div {
+  position: absolute;
+
+  background-color: rgba(0,255,0,.2);
+  border: 1px solid rgba(0,255,0,.5);
+  transition: background-color 0.3s;
+  display: block;
+
+  cursor: pointer;
+}
+
+  .views > div > div:hover {
+    background-color: rgba(0,255,0,.5);
+  }
+
+.back {
+  left: 4px;
+  top: 4px;
+
+  height: 70px;
+  width: 70px;
+}
+
+/* Tutorial */
+
+.tutorial-next {
+  left: 30px;
+  bottom: 106px;
+
+  height: 70px;
+  width: 210px;
+}
+
+.tutorial-exit {
+  left: 30px;
+  bottom: 50px;
+
+  height: 50px;
+  width: 150px;
+}
+
+#tutorial-1 {
+  background-image: url(../img/tutorial/1_intro.png);
+}
+
+#tutorial-2 {
+  background-image: url(../img/tutorial/2_home.png);
+}
+
+#tutorial-3 {
+  background-image: url(../img/tutorial/3_input.png);
+}
+
+#tutorial-4 {
+  background-image: url(../img/tutorial/4_blood_glucose.png);
+}
+
+#tutorial-5 {
+  background-image: url(../img/tutorial/5_meal.png);
+}
+
+#tutorial-6 {
+  background-image: url(../img/tutorial/5_meal_details.png);
+}
+
+#tutorial-7 {
+  background-image: url(../img/tutorial/7_exercise.png);
+}
+
+#tutorial-8 {
+  background-image: url(../img/tutorial/8_hp_reminder.png);
+}
+
+#tutorial-9 {
+  background-image: url(../img/tutorial/9_add_reminder.png);
+}
+
+#tutorial-10 {
+  background-image: url(../img/tutorial/10_reminder_details.png);
+}
+
+#tutorial-11 {
+  background-image: url(../img/tutorial/11_graph.png);
+}
+
+#tutorial-12 {
+  background-image: url(../img/tutorial/12_info.png);
+}
+
+#tutorial-13 {
+  background-image: url(../img/tutorial/13_repeat.png);
+}
+
+
+/* Home page */
+
+#home {
+  background-image: url(../img/home/home.png);
+}
+
+  #home-estimate-toggle,
+  #home-estimate-back {
+    left: 49px;
+    top: 158px;
+
+    height: 129px;
+    width: 532px;
+  }
+
+  #home-add-button {
+    right: 13px;
+    bottom: 13px;
+
+    height: 130px;
+    width: 130px;
+
+    border-radius: 50%;
+  }
+
+  #home-instructions-button {
+    right: 8px;
+    top: 6px;
+
+    height: 60px;
+    width: 60px;
+  }
+
+  #home-menu-settings {
+    left: 10px;
+    top: 5px;
+
+    height: 62px;
+    width: 62px;
+  }
+
+  #home-menu-reminders {
+    left: 92px;
+    top: 5px;
+
+    height: 62px;
+    width: 62px;
+  }
+
+  #home-trends-button {
+    left: 32px;
+    bottom: 500px;
+
+    height: 74px;
+    width: 575px;
+  }
+
+#home-add {
+  background-image: url(../img/home/add.png);
+}
+
+  #home-add-close {
+    left: 29px;
+    top: 270px;
+
+    height: 74px;
+    width: 74px;
+  }
+
+  #home-add-glucose {
+    left: 70px;
+    top: 404px;
+
+    height: 102px;
+    width: 500px;
+  }
+
+  #home-add-meal {
+    left: 70px;
+    top: 528px;
+
+    height: 102px;
+    width: 500px;
+  }
+
+  #home-add-exercise {
+    left: 70px;
+    top: 658px;
+
+    height: 102px;
+    width: 500px;
+  }
+
+#home-instructions {
+  background-image: url(../img/home/instructions.png);
+}
+
+  #home-instructions-tutorial {
+    left: 170px;
+    bottom: 74px;
+
+    height: 74px;
+    width: 310px;
+  }
+
+  #home-instructions-close {
+    right: 17px;
+    top: 15px;
+
+    height: 74px;
+    width: 74px;
+  }
+
+
+/* Trends */
+
+#glucose-trends {
+  background-image: url(../img/trends/detailed_trends.png);
+}
+
+
+/* Settings */
+
+#settings {
+  background-image: url(../img/settings/settings.png);
+}
+
+
+/* Data input */
+
+.input-datetime {
+  left: 0;
+
+  height: 80px;
+  width: 640px;
+}
+
+.input-action {
+  height: 87px;
+  width: 285px;
+}
+
+.input-dialog-done {
+  left: 78px;
+  bottom: 180px;
+
+  height: 72px;
+  width: 482px;
+}
+
+#input-glucose {
+  background-image: url(../img/data_input/glucose.jpg);
+}
+
+  #input-glucose-time-button {
+    top: 312px;
+  }
+
+  #input-glucose-date-button {
+    top: 470px;
+  }
+
+  #input-glucose-cancel {
+    top: 600px;
+    left: 20px;
+  }
+
+  #input-glucose-done {
+    top: 600px;
+    right: 23px;
+  }
+
+  #input-glucose-time {
+    background-image: url(../img/data_input/glucose_time.jpg);
+  }
+
+  #input-glucose-date {
+    background-image: url(../img/data_input/glucose_date.jpg);
+  }
+
+#input-food {
+  background-image: url(../img/data_input/food.jpg);
+}
+
+  #input-food-photo-button {
+    right: 5px;
+    top: 0;
+
+    height: 80px;
+    width: 80px;
+  }
+
+  #input-food-time-button {
+    top: 540px;
+  }
+
+  #input-food-date-button {
+    top: 705px;
+  }
+
+  #input-food-cancel {
+    top: 830px;
+    left: 20px;
+  }
+
+  #input-food-done {
+    top: 830px;
+    right: 23px;
+  }
+
+  #input-food-time {
+    background-image: url(../img/data_input/food_time.jpg);
+  }
+
+  #input-food-date {
+    background-image: url(../img/data_input/food_date.jpg);
+  }
+
+#input-food-photo {
+  background-image: url(../img/data_input/food_photo.jpg);
+}
+
+  #input-food-photo-back {
+    left: 5px;
+    bottom: 80px;
+
+    height: 80px;
+    width: 80px;
+  }
+
+#input-exercise {
+  background-image: url(../img/data_input/exercise.jpg);
+}
+
+  #input-exercise-time-button {
+    top: 468px;
+  }
+
+  #input-exercise-date-button {
+    top: 625px;
+  }
+
+  #input-exercise-options-dropdown {
+    left: 0;
+    top: 150px;
+
+    height: 82px;
+    width: 640px;
+  }
+
+  #input-exercise-cancel {
+    top: 755px;
+    left: 20px;
+  }
+
+  #input-exercise-done {
+    top: 755px;
+    right: 23px;
+  }
+
+  #input-exercise-time {
+    background-image: url(../img/data_input/exercise_time.jpg);
+  }
+
+  #input-exercise-date {
+    background-image: url(../img/data_input/exercise_date.jpg);
+  }
+
+#input-exercise-options {
+  background-image: url(../img/data_input/exercise_options.jpg);
+}
+
+  #input-exercise-running {
+    left: 0;
+    bottom: 236px;
+
+    height: 68px;
+    width: 640px;
+  }
+
+
+/* Reminders */
+#reminders-day {
+  background-image: url(../img/reminders/day_view_5.png);
+}
+
+  #reminder-day-time-1030 {
+    left: 152px;
+    top: 296px;
+
+    height: 70px;
+    width: 70px;
+  }
+
+  #reminders-month-tab {
+    right: 1px;
+    top: 124px;
+
+    height: 42px;
+    width: 315px;
+  }
+
+  #reminders-day-add {
+    right: 13px;
+    bottom: 13px;
+
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+  }
+
+  #reminder-edit {
+    right: 23px;
+    top: 664px;
+
+    height: 50px;
+    width: 50px;
+  }
+
+#reminders-day-alt {
+  background-image: url(../img/reminders/day_view_1030.png);
+}
+
+  #reminder-day-time-5 {
+    right: 201px;
+    top: 499px;
+
+    height: 70px;
+    width: 70px;
+  }
+
+#reminders-month {
+  background-image: url(../img/reminders/month_view.png);
+}
+
+  #reminders-day-tab {
+    left: 1px;
+    top: 124px;
+
+    height: 42px;
+    width: 315px;
+  }
+
+  #reminders-month-add {
+    right: 13px;
+    bottom: 13px;
+
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+  }
+
+#reminders-add {
+  background-image: url(../img/reminders/add.png);
+}
+
+  #reminders-add-medicine {
+    left: 55px;
+    top: 375px;
+
+    height: 291px;
+    width: 241px;
+  }
+
+#reminder-details {
+  background-image: url(../img/reminders/details.png);
+}
+
+  #reminder-details-settings {
+    left: 1px;
+    top: 399px;
+
+    height: 131px;
+    width: 636px;
+  }
+
+#reminder-details-repeat {
+  background-image: url(../img/reminders/repeat_settings.png);
+}
+
+  #reminder-details-repeat-close {
+    right: 17px;
+    top: 250px;
+
+    height: 74px;
+    width: 74px;
+  }
+
+  #reminder-details-repeat-time {
+    right: 46px;
+    bottom: 280px;
+
+    height: 80px;
+    width: 277px;
+  }
+
+#reminder-details-time {
+  background-image: url(../img/reminders/time_settings.png);
+}
+
+  #reminder-details-time-close {
+    right: 17px;
+    top: 250px;
+
+    height: 74px;
+    width: 74px;
+  }
+
+  #reminder-details-time-repeat {
+    left: 52px;
+    bottom: 280px;
+
+    height: 80px;
+    width: 263px;
+  }
+

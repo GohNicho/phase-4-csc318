@@ -126,82 +126,121 @@ h1 {
   }
 
 .back {
-  left: 4px;
-  top: 4px;
+  left: 5px;
+  top: 5px;
 
-  height: 70px;
-  width: 70px;
+  height: 90px;
+  width: 90px;
 }
 
 /* Tutorial */
 
 .tutorial-next {
-  left: 30px;
-  bottom: 106px;
-
-  height: 70px;
-  width: 210px;
+  height: 76px;
+  width: 224px;
 }
 
-.tutorial-exit {
-  left: 30px;
-  bottom: 50px;
-
+.tutorial-skip {
   height: 50px;
   width: 150px;
 }
 
-#tutorial-1 {
-  background-image: url(../img/tutorial/1_intro.png);
+#tutorial-intro {
+  background-image: url(../img/tutorial/intro.png);
 }
 
-#tutorial-2 {
-  background-image: url(../img/tutorial/2_home.png);
+  #tutorial-intro-skip {
+    right: 0;
+    bottom: 7px;
+  }
+
+  #tutorial-intro-app {
+    left: 87px;
+    top: 424px;
+
+    height: 34px;
+    width: 229px;
+  }
+
+  #tutorial-intro-input {
+    left: 87px;
+    top: 461px;
+
+    height: 34px;
+    width: 191px;
+  }
+
+  #tutorial-intro-reminders {
+    left: 87px;
+    top: 498px;
+
+    height: 34px;
+    width: 191px;
+  }
+
+  #tutorial-intro-progress {
+    left: 87px;
+    top: 535px;
+
+    height: 34px;
+    width: 261px;
+  }
+
+#tutorial-app {
+  background-image: url(../img/tutorial/app.png);
 }
 
-#tutorial-3 {
-  background-image: url(../img/tutorial/3_input.png);
+  #tutorial-app-next {
+    right: 20px;
+    bottom: 65px;
+  }
+
+  #tutorial-app-exit {
+    right: 0;
+    bottom: 7px;
+  }
+
+#tutorial-input {
+  background-image: url(../img/tutorial/input.png);
 }
 
-#tutorial-4 {
-  background-image: url(../img/tutorial/4_blood_glucose.png);
+  #tutorial-input-next {
+    left: 64px;
+    bottom: 175px;
+  }
+
+  #tutorial-input-exit {
+    right: 165px;
+    bottom: 3px;
+  }
+
+#tutorial-reminders {
+  background-image: url(../img/tutorial/reminders.png);
 }
 
-#tutorial-5 {
-  background-image: url(../img/tutorial/5_meal.png);
+  #tutorial-reminders-next {
+    right: 76px;
+    top: 450px;
+  }
+
+  #tutorial-reminders-exit {
+    right: 5px;
+    bottom: 7px;
+  }
+
+#tutorial-progress {
+  background-image: url(../img/tutorial/progress.png);
 }
 
-#tutorial-6 {
-  background-image: url(../img/tutorial/5_meal_details.png);
-}
+  #tutorial-progress-next {
+    right: 70px;
+    top: 370px;
+  }
 
-#tutorial-7 {
-  background-image: url(../img/tutorial/7_exercise.png);
-}
-
-#tutorial-8 {
-  background-image: url(../img/tutorial/8_hp_reminder.png);
-}
-
-#tutorial-9 {
-  background-image: url(../img/tutorial/9_add_reminder.png);
-}
-
-#tutorial-10 {
-  background-image: url(../img/tutorial/10_reminder_details.png);
-}
-
-#tutorial-11 {
-  background-image: url(../img/tutorial/11_graph.png);
-}
-
-#tutorial-12 {
-  background-image: url(../img/tutorial/12_info.png);
-}
-
-#tutorial-13 {
-  background-image: url(../img/tutorial/13_repeat.png);
-}
+  #tutorial-progress-exit {
+    right: 5px;
+    bottom: 12px;
+  }
 
 
 /* Home page */
@@ -220,42 +259,34 @@ h1 {
   }
 
   #home-add-button {
-    right: 13px;
-    bottom: 13px;
+    right: 14px;
+    bottom: 15px;
 
-    height: 130px;
-    width: 130px;
+    height: 145px;
+    width: 145px;
 
     border-radius: 50%;
   }
 
   #home-instructions-button {
-    right: 8px;
-    top: 6px;
+    right: 21px;
+    top: 14px;
 
     height: 60px;
     width: 60px;
   }
 
-  #home-menu-settings {
-    left: 10px;
-    top: 5px;
+  #home-menu-button {
+    left: 0;
+    top: 0;
 
-    height: 62px;
-    width: 62px;
-  }
-
-  #home-menu-reminders {
-    left: 92px;
-    top: 5px;
-
-    height: 62px;
-    width: 62px;
+    height: 89px;
+    width: 98px;
   }
 
   #home-trends-button {
     left: 32px;
-    bottom: 500px;
+    bottom: 512px;
 
     height: 74px;
     width: 575px;
@@ -301,14 +332,6 @@ h1 {
   background-image: url(../img/home/instructions.png);
 }
 
-  #home-instructions-tutorial {
-    left: 170px;
-    bottom: 74px;
-
-    height: 74px;
-    width: 310px;
-  }
-
   #home-instructions-close {
     right: 17px;
     top: 15px;
@@ -317,12 +340,56 @@ h1 {
     width: 74px;
   }
 
+#home-menu {
+  background-image: url(../img/home/menu.png);
+}
+
+  #home-menu-settings {
+    left: 5px;
+    bottom: 255px;
+
+    height: 99px;
+    width: 627px;
+  }
+
+  #home-menu-reminders {
+    left: 5px;
+    bottom: 145px;
+
+    height: 99px;
+    width: 627px;
+  }
+
+  #home-menu-cancel {
+    left: 5px;
+    bottom: 22px;
+
+    height: 99px;
+    width: 627px;
+  }
+
 
 /* Trends */
 
 #glucose-trends {
-  background-image: url(../img/trends/detailed_trends.png);
+  background-image: url(../img/trends/recent.png);
 }
+
+  #glucose-trends-close-top {
+    left: 0;
+    top: 0;
+
+    height: 162px;
+    width: 640px;
+  }
+
+  #glucose-trends-close-bottom {
+    left: 0;
+    bottom: 0;
+
+    height: 162px;
+    width: 640px;
+  }
 
 
 /* Settings */
@@ -335,10 +402,10 @@ h1 {
 /* Data input */
 
 .input-datetime {
-  left: 0;
+  left: 21px;
 
-  height: 80px;
-  width: 640px;
+  height: 110px;
+  width: 598px;
 }
 
 .input-action {
@@ -358,21 +425,29 @@ h1 {
   background-image: url(../img/data_input/glucose.jpg);
 }
 
+  #input-glucose-back {
+    left: 5px;
+    top: 5px;
+
+    height: 90px;
+    width: 45px;
+  }
+
   #input-glucose-time-button {
-    top: 312px;
+    top: 388px;
   }
 
   #input-glucose-date-button {
-    top: 470px;
+    top: 598px;
   }
 
   #input-glucose-cancel {
-    top: 600px;
+    top: 763px;
     left: 20px;
   }
 
   #input-glucose-done {
-    top: 600px;
+    top: 763px;
     right: 23px;
   }
 
@@ -388,29 +463,29 @@ h1 {
   background-image: url(../img/data_input/food.jpg);
 }
 
-  #input-food-photo-button {
-    right: 5px;
-    top: 0;
+  #input-food-back {
+    left: 5px;
+    top: 5px;
 
-    height: 80px;
-    width: 80px;
+    height: 90px;
+    width: 45px;
   }
 
   #input-food-time-button {
-    top: 540px;
+    top: 608px;
   }
 
   #input-food-date-button {
-    top: 705px;
+    top: 819px;
   }
 
   #input-food-cancel {
-    top: 830px;
+    top: 982px;
     left: 20px;
   }
 
   #input-food-done {
-    top: 830px;
+    top: 982px;
     right: 23px;
   }
 
@@ -422,45 +497,41 @@ h1 {
     background-image: url(../img/data_input/food_date.jpg);
   }
 
-#input-food-photo {
-  background-image: url(../img/data_input/food_photo.jpg);
-}
-
-  #input-food-photo-back {
-    left: 5px;
-    bottom: 80px;
-
-    height: 80px;
-    width: 80px;
-  }
-
 #input-exercise {
   background-image: url(../img/data_input/exercise.jpg);
 }
 
+  #input-exercise-back {
+    left: 5px;
+    top: 5px;
+
+    height: 90px;
+    width: 45px;
+  }
+
   #input-exercise-time-button {
-    top: 468px;
+    top: 608px;
   }
 
   #input-exercise-date-button {
-    top: 625px;
+    top: 819px;
   }
 
   #input-exercise-options-dropdown {
-    left: 0;
-    top: 150px;
+    left: 22px;
+    top: 179px;
 
-    height: 82px;
-    width: 640px;
+    height: 108px;
+    width: 595px;
   }
 
   #input-exercise-cancel {
-    top: 755px;
+    top: 982px;
     left: 20px;
   }
 
   #input-exercise-done {
-    top: 755px;
+    top: 982px;
     right: 23px;
   }
 
@@ -477,26 +548,18 @@ h1 {
 }
 
   #input-exercise-running {
-    left: 0;
-    bottom: 236px;
+    left: 22px;
+    top: 429px;
 
     height: 68px;
-    width: 640px;
+    width: 595px;
   }
 
 
 /* Reminders */
 #reminders-day {
-  background-image: url(../img/reminders/day_view_5.png);
+  background-image: url(../img/reminders/day_view.png);
 }
-
-  #reminder-day-time-1030 {
-    left: 152px;
-    top: 296px;
-
-    height: 70px;
-    width: 70px;
-  }
 
   #reminders-month-tab {
     right: 1px;
@@ -507,32 +570,20 @@ h1 {
   }
 
   #reminders-day-add {
-    right: 13px;
-    bottom: 13px;
+    right: 20px;
+    bottom: 20px;
 
-    height: 130px;
-    width: 130px;
+    height: 135px;
+    width: 135px;
     border-radius: 50%;
   }
 
   #reminder-edit {
-    right: 23px;
-    top: 664px;
+    right: 158px;
+    top: 540px;
 
     height: 50px;
     width: 50px;
-  }
-
-#reminders-day-alt {
-  background-image: url(../img/reminders/day_view_1030.png);
-}
-
-  #reminder-day-time-5 {
-    right: 201px;
-    top: 499px;
-
-    height: 70px;
-    width: 70px;
   }
 
 #reminders-month {
@@ -548,11 +599,11 @@ h1 {
   }
 
   #reminders-month-add {
-    right: 13px;
-    bottom: 13px;
+    right: 20px;
+    bottom: 20px;
 
-    height: 130px;
-    width: 130px;
+    height: 135px;
+    width: 135px;
     border-radius: 50%;
   }
 
@@ -562,10 +613,22 @@ h1 {
 
   #reminders-add-medicine {
     left: 55px;
-    top: 375px;
+    top: 264px;
 
     height: 291px;
     width: 241px;
+  }
+
+#reminders {
+  background-image: url(../img/reminders/list.png);
+}
+
+  #reminder-example {
+    left: 26px;
+    top: 173px;
+
+    height: 119px;
+    width: 590px;
   }
 
 #reminder-details {
@@ -574,7 +637,7 @@ h1 {
 
   #reminder-details-settings {
     left: 1px;
-    top: 399px;
+    top: 412px;
 
     height: 131px;
     width: 636px;

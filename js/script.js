@@ -1,35 +1,33 @@
 var vHome = document.getId('home');
 
 // Tutorial
-var vTut1 = document.getId('tutorial-1');
-vTut1.show();
+var vTutIntro = document.getId('tutorial-intro');
+vTutIntro.show();
 
-// Tutorial exit button
-var skips = document.getElementsByClassName('tutorial-exit');
+// Tutorial skip/exit button
+var skips = document.getElementsByClassName('tutorial-skip');
 for (i = 0; i < skips.length; i++) {
   skips[i].showView(vHome);
 }
 
-// Tutorial next buttons
-document.getId('tutorial-1-next').showView(document.getId('tutorial-2'));
-document.getId('tutorial-2-next').showView(document.getId('tutorial-3'));
-document.getId('tutorial-3-next').showView(document.getId('tutorial-4'));
-document.getId('tutorial-4-next').showView(document.getId('tutorial-5'));
-document.getId('tutorial-5-next').showView(document.getId('tutorial-6'));
-document.getId('tutorial-6-next').showView(document.getId('tutorial-7'));
-document.getId('tutorial-7-next').showView(document.getId('tutorial-8'));
-document.getId('tutorial-8-next').showView(document.getId('tutorial-9'));
-document.getId('tutorial-9-next').showView(document.getId('tutorial-10'));
-document.getId('tutorial-10-next').showView(document.getId('tutorial-11'));
-document.getId('tutorial-11-next').showView(document.getId('tutorial-12'));
-document.getId('tutorial-12-next').showView(document.getId('tutorial-13'));
+document.getId('tutorial-intro-app').showView(document.getId('tutorial-app'));
+document.getId('tutorial-intro-input').showView(document.getId('tutorial-input'));
+document.getId('tutorial-intro-reminders').showView(document.getId('tutorial-reminders'));
+document.getId('tutorial-intro-progress').showView(document.getId('tutorial-progress'));
 
+document.getId('tutorial-app-next').showView(document.getId('tutorial-input'));
+
+document.getId('tutorial-input-next').showView(document.getId('tutorial-reminders'));
+
+document.getId('tutorial-reminders-next').showView(document.getId('tutorial-progress'));
+
+document.getId('tutorial-progress-next').showView(vHome);
 
 // Home page
 document.getId('home-add-button').showView(document.getId('home-add'));
 document.getId('home-instructions-button').showView(document.getId('home-instructions'));
-document.getId('home-instructions-tutorial').showView(vTut1);
 document.getId('home-instructions-close').showView(vHome);
+document.getId('home-menu-button').showView(document.getId('home-menu'));
 document.getId('home-trends-button').showView(document.getId('glucose-trends'));
 
 // Home add menu
@@ -41,9 +39,11 @@ document.getId('home-add-exercise').showView(document.getId('input-exercise'));
 // Home menu
 document.getId('home-menu-settings').showView(document.getId('settings'))
 document.getId('home-menu-reminders').showView(document.getId('reminders-day'))
+document.getId('home-menu-cancel').showView(vHome)
 
 // Glucose trends
-document.getId('glucose-trends-back').showView(vHome);
+document.getId('glucose-trends-close-top').showView(vHome);
+document.getId('glucose-trends-close-bottom').showView(vHome);
 
 // Settings
 document.getId('settings-back').showView(vHome);
@@ -62,10 +62,8 @@ document.getId('input-glucose-time-done').showView(document.getId('input-glucose
 document.getId('input-glucose-date-done').showView(document.getId('input-glucose'));
 
 document.getId('input-food-back').showView(vHome);
-document.getId('input-food-photo-button').showView(document.getId('input-food-photo'));
 document.getId('input-food-time-button').showView(document.getId('input-food-time'));
 document.getId('input-food-date-button').showView(document.getId('input-food-date'));
-document.getId('input-food-photo-back').showView(document.getId('input-food'));
 document.getId('input-food-time-done').showView(document.getId('input-food'));
 document.getId('input-food-date-done').showView(document.getId('input-food'));
 
@@ -86,8 +84,6 @@ document.getId('reminders-day-back').showView(vHome);
 document.getId('reminders-month-tab').showView(document.getId('reminders-month'));
 document.getId('reminder-edit').showView(vReminderDetails);
 document.getId('reminders-day-add').showView(document.getId('reminders-add'));
-document.getId('reminder-day-time-5').showView(document.getId('reminders-day'));
-document.getId('reminder-day-time-1030').showView(document.getId('reminders-day-alt'));
 
 document.getId('reminders-month-back').showView(vHome);
 document.getId('reminders-day-tab').showView(document.getId('reminders-day'));
