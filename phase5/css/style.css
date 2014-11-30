@@ -210,6 +210,38 @@ h1 {
   background-image: url(../img/tutorial/1_intro.png);
 }
 
+  #tutorial-intro-app {
+    left: 87px;
+    top: 424px;
+
+    height: 34px;
+    width: 320px;
+  }
+
+  #tutorial-intro-input {
+    left: 87px;
+    top: 461px;
+
+    height: 34px;
+    width: 191px;
+  }
+
+  #tutorial-intro-reminders {
+    left: 87px;
+    top: 498px;
+
+    height: 34px;
+    width: 191px;
+  }
+
+  #tutorial-intro-progress {
+    left: 87px;
+    top: 535px;
+
+    height: 34px;
+    width: 261px;
+  }
+
 #tutorial-2 {
   background-image: url(../img/tutorial/2_home.png);
 }
@@ -257,6 +289,14 @@ h1 {
 #tutorial-13 {
   background-image: url(../img/tutorial/13_repeat.png);
 }
+
+  #tutorial-repeat {
+    left: 165px;
+    bottom: 70px;
+
+    height: 80px;
+    width: 320px;
+  }
 
 
 /* Home page */

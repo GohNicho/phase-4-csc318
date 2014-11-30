@@ -25,6 +25,12 @@ document.getId('tutorial-11-next').showView(document.getId('tutorial-12'));
 document.getId('tutorial-12-next').showView(document.getId('tutorial-13'));
 
 // Tutorial skip buttons
+document.getId('tutorial-intro-app').showView(document.getId('tutorial-2'));
+document.getId('tutorial-intro-input').showView(document.getId('tutorial-3'));
+document.getId('tutorial-intro-reminders').showView(document.getId('tutorial-8'));
+document.getId('tutorial-intro-progress').showView(document.getId('tutorial-11'));
+document.getId('tutorial-repeat').showView(vTut1);
+
 var skip1s = document.getElementsByClassName('tut-skip-1');
 for (i = 0; i < skips.length; i++) {
     skip1s[i].showView(document.getId('tutorial-2'));
