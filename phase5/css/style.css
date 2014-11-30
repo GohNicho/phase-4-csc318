@@ -1,4 +1,5 @@
 body {
+  background-color: #eee;
   font: 16px/20px Roboto, 'Roboto Light', Helvetica, Arial, sans-serif;
 }
 
@@ -13,6 +14,7 @@ h1 {
 }
 
 #iphone {
+  background-color: #fff;
   border: 3px solid #000;
   border-radius: 5em;
   margin: 5em auto;
