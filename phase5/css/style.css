@@ -145,10 +145,65 @@ h1 {
 
 .tutorial-exit {
   left: 30px;
-  bottom: 50px;
+  bottom: 58px;
 
-  height: 50px;
+  height: 40px;
   width: 150px;
+}
+
+.tut-skip {
+  bottom: 13px;
+
+  height: 40px;
+  width: 40px;
+}
+
+.tut-skip-1 {
+  left: 24px;
+}
+
+.tut-skip-2 {
+  left: 74px;
+}
+
+.tut-skip-3 {
+  left: 124px;
+}
+
+.tut-skip-4 {
+  left: 174px;
+}
+
+.tut-skip-5 {
+  left: 224px;
+}
+
+.tut-skip-6 {
+  left: 274px;
+}
+
+.tut-skip-7 {
+  left: 324px;
+}
+
+.tut-skip-8 {
+  left: 374px;
+}
+
+.tut-skip-9 {
+  left: 424px;
+}
+
+.tut-skip-10 {
+  left: 474px;
+}
+
+.tut-skip-11 {
+  left: 524px;
+}
+
+.tut-skip-12 {
+  left: 574px;
 }
 
 #tutorial-1 {

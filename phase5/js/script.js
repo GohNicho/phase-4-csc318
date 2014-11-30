@@ -24,6 +24,55 @@ document.getId('tutorial-10-next').showView(document.getId('tutorial-11'));
 document.getId('tutorial-11-next').showView(document.getId('tutorial-12'));
 document.getId('tutorial-12-next').showView(document.getId('tutorial-13'));
 
+// Tutorial skip buttons
+var skip1s = document.getElementsByClassName('tut-skip-1');
+for (i = 0; i < skips.length; i++) {
+    skip1s[i].showView(document.getId('tutorial-2'));
+}
+var skip2s = document.getElementsByClassName('tut-skip-2');
+for (i = 0; i < skips.length; i++) {
+    skip2s[i].showView(document.getId('tutorial-3'));
+}
+var skip3s = document.getElementsByClassName('tut-skip-3');
+for (i = 0; i < skips.length; i++) {
+    skip3s[i].showView(document.getId('tutorial-4'));
+}
+var skip4s = document.getElementsByClassName('tut-skip-4');
+for (i = 0; i < skips.length; i++) {
+    skip4s[i].showView(document.getId('tutorial-5'));
+}
+var skip5s = document.getElementsByClassName('tut-skip-5');
+for (i = 0; i < skips.length; i++) {
+    skip5s[i].showView(document.getId('tutorial-6'));
+}
+var skip6s = document.getElementsByClassName('tut-skip-6');
+for (i = 0; i < skips.length; i++) {
+    skip6s[i].showView(document.getId('tutorial-7'));
+}
+var skip7s = document.getElementsByClassName('tut-skip-7');
+for (i = 0; i < skips.length; i++) {
+    skip7s[i].showView(document.getId('tutorial-8'));
+}
+var skip8s = document.getElementsByClassName('tut-skip-8');
+for (i = 0; i < skips.length; i++) {
+    skip8s[i].showView(document.getId('tutorial-9'));
+}
+var skip9s = document.getElementsByClassName('tut-skip-9');
+for (i = 0; i < skips.length; i++) {
+    skip9s[i].showView(document.getId('tutorial-10'));
+}
+var skip10s = document.getElementsByClassName('tut-skip-10');
+for (i = 0; i < skips.length; i++) {
+    skip10s[i].showView(document.getId('tutorial-11'));
+}
+var skip11s = document.getElementsByClassName('tut-skip-11');
+for (i = 0; i < skips.length; i++) {
+    skip11s[i].showView(document.getId('tutorial-12'));
+}
+var skip12s = document.getElementsByClassName('tut-skip-12');
+for (i = 0; i < skips.length; i++) {
+    skip12s[i].showView(document.getId('tutorial-13'));
+}
 
 // Home page
 document.getId('home-add-button').showView(document.getId('home-add'));
